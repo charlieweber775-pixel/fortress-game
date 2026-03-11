@@ -267,11 +267,7 @@ function dSeg(px,py,a,b){
 }
 
 function openFullTab(){
-  // Serialize the current page's HTML and open it in a new tab
-  const html = document.documentElement.outerHTML;
-  const blob = new Blob([html], {type: 'text/html'});
-  const url = URL.createObjectURL(blob);
-  window.open(url, '_blank');
+  window.open('https://charlieweber775-pixel.github.io/fortress-game', '_blank');
 }
 
 function selectType(type){
